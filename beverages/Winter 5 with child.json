@@ -1,0 +1,49 @@
+{
+  "name": "Winter 5 with child",
+  "decisionId": "beverages",
+  "input": {
+    "hash": 774442159144521,
+    "data": [
+      {
+        "name": "Guests with children",
+        "key": "guestsWithChildren",
+        "type": "boolean",
+        "value": true,
+        "required": true
+      },
+      {
+        "name": "Season",
+        "key": "season",
+        "type": "string",
+        "value": "Winter",
+        "required": true
+      },
+      {
+        "name": "How many guests",
+        "key": "guestCount",
+        "type": "integer",
+        "value": "5",
+        "required": true
+      }
+    ]
+  },
+  "output": {
+    "hash": 87186370735924,
+    "data": [
+      {
+        "beverages": {
+          "type": "String",
+          "value": "Apple Juice",
+          "valueInfo": {}
+        }
+      },
+      {
+        "beverages": {
+          "type": "String",
+          "value": "Bordeaux",
+          "valueInfo": {}
+        }
+      }
+    ]
+  }
+}
